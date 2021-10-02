@@ -4,8 +4,6 @@ The files in this repository were used to configure the network depicted below.
 
 ![](./ELK_Stack_Network_Diagram.png)
 
-https://github.com/kpkelsey/Elk_Stack_Project/blob/main/ELK_Stack_Network_Diagram.png?raw=true
-
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the /etc/ansible/(file_name)-playbook.yml file may be used to install only certain pieces of it, such as Filebeat.
 Ansible Playbooks live in the /etc/ansible/ folder.
 
@@ -71,7 +69,7 @@ Ensure that Docker and ELK start with system boot processes
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-https://github.com/kpkelsey/Elk_Stack_Project/blob/main/docker_ps_output.png.png?raw=true
+![](./docker_ps_output.png.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
